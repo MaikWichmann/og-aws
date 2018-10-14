@@ -18,7 +18,7 @@ exclude:
 roles:
   jlevy: project lead, editor (topics not otherwise assigned)
   ThanosBaskous: project lead, editor (topics not otherwise assigned)
-  QuinnyPig: editor (news and updates, cost management)
+  QuinnyPig: community lead, editor (news and updates, cost management)
   max-zanko: editor (EC2, S3, Glacier, EMR, Redshift)
   nitingithub: editor (cost management)
   forwidur: editor (EBS, RDS)
@@ -28,6 +28,7 @@ roles:
   bgdnlp: editor (EFS)
   JCBarry: editor (CloudWatch)
   nzoschke: editor (KMS)
+  lobster1234: editor (Batch, SQS, SNS)
   donnemartin: expert (tools)
   merrells: expert (cloud infrastructure, when to use AWS)
   benkehoe: expert (IoT)
@@ -46,3 +47,31 @@ roles:
   rjpower:
   alexanderatallah:
   Jurgen Philippaerts:
+
+groups:
+  - name: Leads
+    members:
+    - jlevy
+    - ThanosBaskous
+    - QuinnyPig
+  - name: Editors and Experts
+    members:
+    - max-zanko
+    - nitingithub
+    - forwidur
+    - lynnlangit
+    - richadams
+    - artemnikitin
+    - bgdnlp
+    - JCBarry
+    - nzoschke
+    - lobster1234
+    - donnemartin
+    - merrells
+    - benkehoe
+    - ehammond
+    - danhermann
+    - kimschmidtsbrain
+    - wumintendy
+    - lukedeo
+  - name: Contributors
